@@ -1,5 +1,5 @@
 import { useContext, useEffect, useRef, useState } from "react";
-import { Icon } from "../MyIcon/icon";
+import { Icon } from "../MyIcon/Icon";
 import { useLocation, useNavigate } from "react-router-dom";
 import { DataContext } from "../../Context/context";
 import axios from "axios";
