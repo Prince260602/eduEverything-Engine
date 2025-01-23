@@ -28,7 +28,7 @@ const McqComponent = () => {
     const generateMCQs = async () => {
       try {
         const response = await axios.post(
-          "http://localhost:3000/api/questions/generate-mcq-questions",
+          "https://edueverything-engine.onrender.com/api/questions/generate-mcq-questions",
           {
             domain,
             subdomain: subDomain,

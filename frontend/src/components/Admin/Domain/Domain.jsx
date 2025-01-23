@@ -2,7 +2,7 @@ import React, { useState, useCallback, useEffect } from "react";
 import { Plus, ChevronDown, ChevronRight, Pencil, Trash } from "lucide-react";
 import { FaSpinner } from "react-icons/fa";
 
-const API_URL = "http://localhost:3000/api";
+const API_URL = "https://edueverything-engine.onrender.com/api";
 
 const Domain = () => {
   const [domains, setDomains] = useState([]);

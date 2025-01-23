@@ -22,7 +22,7 @@ function Contact() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post("http://localhost:3000/api/contacts", {
+      const response = await axios.post("https://edueverything-engine.onrender.com/api/contacts", {
         name: `${data.first_name} ${data.last_name}`,
         email: data.email,
         message: data.message,

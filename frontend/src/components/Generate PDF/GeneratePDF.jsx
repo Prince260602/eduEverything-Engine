@@ -14,7 +14,7 @@ const GeneratePDF = () => {
     const fetchPlan = async () => {
       try {
         const response = await fetch(
-          "http://localhost:3000/api/questions/generate-plan",
+          "https://edueverything-engine.onrender.com/api/questions/generate-plan",
           {
             method: "POST",
             headers: { "Content-Type": "application/json" },

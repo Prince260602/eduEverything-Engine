@@ -49,7 +49,7 @@ const QnaPage = () => {
   const generateQuestions = async (domain, subdomain, description) => {
     try {
       const response = await axios.post(
-        "http://localhost:3000/api/questions/generate-general-questions",
+        "https://edueverything-engine.onrender.com/api/questions/generate-general-questions",
         { domain, subdomain, description }
       );
       setQuestions(response.data);

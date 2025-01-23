@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { ChevronLeft, ChevronRight, Loader, MessageCircle } from "lucide-react";
 import { format } from "date-fns";
 
-const API_URL = "http://localhost:3000/api";
+const API_URL = "https://edueverything-engine.onrender.com/api";
 
 const Queries = () => {
   const [queries, setQueries] = useState([]);

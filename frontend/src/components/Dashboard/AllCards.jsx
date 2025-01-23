@@ -31,7 +31,7 @@ export default function AllCards() {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await axios.get('http://localhost:3000/api/engine/')
+        const response = await axios.get('https://edueverything-engine.onrender.com/api/engine/')
         console.log(response.data)
       } catch (error) {
         console.error(error)
