@@ -1,0 +1,67 @@
+.screen{
+    height: 90vh;
+}
+
+.heading{
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.main-heading{
+  font-size: 4.5rem;
+}
+
+section {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  section video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+  }
+  
+  section .content {
+    position: relative;
+    z-index: 1;
+  }
+
+  .paragraph{
+    font-size: 1.2rem;
+  }
+  
+  @media (max-width:840px) {
+    .screen{
+      height: 100%;
+  }
+  .paragraph{
+    font-size: 1rem;
+  }
+
+  .heading{
+    font-size: 2rem;
+  }
+
+  .main-heading{
+    font-size: 3.5rem;
+    margin-bottom: 2rem;
+  }
+  }
+
+  @media (max-width:430px) {
+  .paragraph{
+    font-size: 0.8rem;
+  }
+  .heading{
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+  }
+  .main-heading{
+    font-size: 2.5rem;
+  }
+  }
