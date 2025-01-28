@@ -113,12 +113,12 @@ export default function Navbar() {
           <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
 
              <a
-              href="/dashboard"
+              href="/Workflow"
               type="button"
               className="focus:outline-none text-white hide-b bg-green-700 hover:bg-green-800 focus:ring-4 focus:ring-green-300 font-medium rounded-lg text-sm px-5 py-2.5 px-4 me-2 mb-2 dark:bg-green-600 dark:hover:bg-green-700 dark:focus:ring-green-800"
               style={{ backgroundColor: "#16a34a" }}
             >
-              Get started
+              Workflow
             </a> 
             <button
               onClick={toggleMenu}

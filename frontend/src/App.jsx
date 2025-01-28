@@ -16,6 +16,7 @@ import { AuthProvider } from "./Context/AuthContext";
 import GeneratePDF from "./components/Generate PDF/GeneratePDF";
 import Login from "./components/Admin/Login/Login";
 import ProtectedRoute from "./components/ProtectedRoute";
+import Workflow from "./components/Workflow";
 
 function App() {
   const location = useLocation();
@@ -35,6 +36,7 @@ function App() {
             <Route path="/qna-page/objectives" element={<McqComponent />} />
             <Route path="/generate-pdf" element={<GeneratePDF />} />
             <Route path="/admin/login" element={<Login />} />
+            <Route path="/Workflow" element={<Workflow/>}/>
             <Route
               path="/admin"
               element={
