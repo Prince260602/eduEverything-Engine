@@ -11,7 +11,7 @@ export default function Footer() {
               className="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse"
             >
               <span className="self-center text-2xl font-semibold whitespace-nowrap">
-                TEN All Engine
+                All Engine
               </span>
             </a>
             <ul className="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0">
@@ -41,7 +41,7 @@ export default function Footer() {
           <span className="block text-sm text-gray-500 sm:text-center">
             © 2025{" "}
             <a href="/" className="hover:underline">
-              TEN AI Engine
+              AI Engine's
             </a>
             . All Rights Reserved.
           </span>
